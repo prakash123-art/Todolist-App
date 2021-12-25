@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginEnd="0dp"
+    android:layout_marginRight="25dp"
+    android:background="#ffdfe5"
+    android:orientation="vertical"
+    tools:context=".EditTodoFragment">
+
+    <EditText
+        android:id="@+id/edit_fragment_txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#F1F8AB"
+        android:ems="10"
+        android:hint="@string/edit_title"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edit_fragment_txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:height="150dp"
+        android:background="#F1F8AB"
+        android:ems="10"
+        android:hint="@string/edit_description"
+        android:inputType="textMultiLine|textPersonName"
+        android:lines="5"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/edit_fragment_txt_date"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="15dp"
+        android:background="#F1F8AB"
+        android:ems="10"
+        android:hint="@string/edit_date"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5sp"
+                android:background="#9BA9F3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Priority"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <RadioGroup
+                    android:id="@+id/edit_fragment_rg_priority"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:background="#AC3B3B"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/edit_fragment_rb_high"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#C6F2F8"
+                        android:text="@string/edit_high"
+                        android:textColorHint="#000000"
+                        app:buttonTint="#EF0606" />
+
+                    <RadioButton
+                        android:id="@+id/edit_fragment_rb_medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#C6F2F8"
+                        android:text="@string/edit_medium"
+                        android:textColorHint="#000000"
+                        app:buttonTint="#F8E74C" />
+
+                    <RadioButton
+                        android:id="@+id/edit_fragment_rb_low"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="#C6F2F8"
+                        android:text="@string/edit_low"
+                        app:buttonTint="#1CED22" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/edit_fragment_chk_complete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Completed"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/edit_fragment_btn_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/button_onoff_indicator_off"
+                    android:text="@string/edit_save"
+                    app:backgroundTint="#4ECF53" />
+
+                <Button
+                    android:id="@+id/edit_fragment_btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/button_onoff_indicator_off"
+                    android:text="@string/cancel"
+                    app:backgroundTint="#ff0000" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
