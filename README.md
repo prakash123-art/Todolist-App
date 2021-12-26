@@ -15,3 +15,4 @@ Protrait and Landscape views
 # Screen-recording
 
 ![todoapp](https://user-images.githubusercontent.com/53834888/147399932-190a44fd-826b-43aa-938f-7ba92d5e3fcb.gif)
+
