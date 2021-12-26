@@ -1668,6 +1668,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_pw
+drawable loginback
 drawable loginbg
 drawable mainbg
 drawable material_cursor_drawable

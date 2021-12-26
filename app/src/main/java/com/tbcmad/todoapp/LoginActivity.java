@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if(!userName.getText().toString().equals("pks")) {
+                if(!userName.getText().toString().equals("prakash")) {
                     userName.requestFocus();
                     userName.setError("Name is in-correct");
                     return;

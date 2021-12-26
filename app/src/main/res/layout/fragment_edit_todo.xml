@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
-        android:background="#F1F8AB"
+        android:background="#ff748c"
         android:ems="10"
         android:hint="@string/edit_title"
         android:inputType="textPersonName"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:height="150dp"
-        android:background="#F1F8AB"
+        android:background="#ff748c"
         android:ems="10"
         android:hint="@string/edit_description"
         android:inputType="textMultiLine|textPersonName"
@@ -45,7 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="42dp"
         android:layout_marginBottom="15dp"
-        android:background="#F1F8AB"
+        android:background="#ff748c"
         android:ems="10"
         android:hint="@string/edit_date"
         android:inputType="textPersonName"
@@ -91,7 +91,7 @@
                         android:background="#C6F2F8"
                         android:text="@string/edit_high"
                         android:textColorHint="#000000"
-                        app:buttonTint="#EF0606" />
+                        app:buttonTint="#ff748c" />
 
                     <RadioButton
                         android:id="@+id/edit_fragment_rb_medium"

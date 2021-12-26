@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/loginbg"
+    android:background="@drawable/loginback"
     tools:context=".LoginActivity">
 
     <TextView
@@ -48,7 +48,7 @@
         android:layout_marginBottom="179dp"
         android:background="@android:drawable/button_onoff_indicator_off"
         android:text="@string/btn_login"
-        app:backgroundTint="#DA6B90"
+        app:backgroundTint="#ff748c"
         app:icon="@drawable/ic_login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
