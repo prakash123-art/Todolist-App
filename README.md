@@ -3,13 +3,13 @@ This is the project file for DMA component 2.
 
 # About this App
 The following are the features of this to do list application.
-*Single Page UI Design
-*Fragments
-*Recycler View
-*CRUD Operations
-*MVVM Design Pattern
-*Login 
-*Protrait and Landscape views
+* Single Page UI Design
+* Fragments
+* Recycler View
+* CRUD Operations
+* MVVM Design Pattern
+* Login 
+* Protrait and Landscape views
 
 
 # Screen-recording
